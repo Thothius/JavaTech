@@ -1,4 +1,3 @@
-package ee.excercises;
 
 public class Excercise1 {
 	
