@@ -21,29 +21,16 @@ Week 1 Lecture Notes
  
  Read about comparators
  
- 
- --
- input as uppercase
- --
- buffered image <-- on it, you can print out a string
- 
- 
- BufferedImage imate = new BufferedImage (width, height, BufferedImage.TYPE_INT_BINARY)
- 
- Graphics graphics = image.getGraphics();
- graphics.setColor(Color.black);
- graphics.drawString("hello",0,30);
- int rgb = image.getRGB(x,y);
- 
- JFrame window = new JFrame();
- 
- public void paintComponents (graphics g){
- g.drawImage(image,0,0,null)
- }
- 
-for loop <-- image.getWidth()
 
-int.image
+Lecture 2 notes
+---------------
+
+Unit testing - testing the smallest unit we can.
+Junit for running tests in Java
+Maven dependency is called junit:junit
+Current version ~4.12
+
+ALT + Left / Right to switch tabs
 
 
 

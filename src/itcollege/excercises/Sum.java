@@ -16,6 +16,7 @@ public class Sum {
 
 	static int number;
 	static int sum;
+	static int power;
 
 	public static void main(String[] args) {
 
@@ -35,8 +36,11 @@ public class Sum {
 
 			int digit = Character.digit(str.charAt(i), 10);
 			sum+=digit;
+			power += power * digit;
+			
 		}
 		System.out.println(sum);
+		System.out.println(power);
 	}
 
 
